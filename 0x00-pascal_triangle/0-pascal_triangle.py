@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+"""This module contains a function prints pascal's triangle"""
 
 def pascal_triangle(n):
     """Return a an array of arrays containing Pascal's triangle
