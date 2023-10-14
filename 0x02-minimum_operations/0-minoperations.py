@@ -15,7 +15,7 @@ def minOperations(n):
     while len(_file) < n:
 
         # If target size n is cleaning divisible by current size
-        if n % len(_file) is False:
+        if n % len(_file) == 0:
             # Copy file contents to buffer
             buffer = _file
             operationCount += 1
